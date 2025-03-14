@@ -1,0 +1,48 @@
+.Resume-Header {
+
+    padding: 20px;
+    margin: 20px;
+    height:1990px;
+    display: grid;
+    grid-template-areas:
+      "Left Left Right Right Right Right Right"
+      "Left Left Right Right Right Right Right"
+      
+  }
+
+  .grid-Child-1 {
+    grid-area: Left;
+    background-color: rgb(33, 171, 235);
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+   
+  }
+  
+  .grid-Child-2 {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight:normal;
+    grid-area: Right;
+  }
+
+  #Name{
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #Role{
+    text-align: start;
+    font-family:cursive;
+  }
+
+
+  #Revenue{
+    display:flex;
+    margin-left: 74px;
+  }
+
+  
